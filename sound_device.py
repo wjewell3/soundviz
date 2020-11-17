@@ -4,7 +4,7 @@ import scipy.io.wavfile as wav
 
 fs=44100
 duration = 5  # seconds
-myrecording = sd.rec(duration * fs, samplerate=fs, channels=2,dtype='float64')
+myrecording = sd.rec(duration * fs, samplerate=fs, channels=1,dtype='float64')
 print("Recording Audio")
 sd.wait()
 print("Audio recording complete , Play Audio")
